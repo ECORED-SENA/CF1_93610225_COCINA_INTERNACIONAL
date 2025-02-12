@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Equipos, utensilios y herramientas de la cocina internacional'
