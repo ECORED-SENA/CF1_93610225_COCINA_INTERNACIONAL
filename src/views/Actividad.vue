@@ -17,38 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Normas, herramientas y tradiciones de la cocina internacional',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> Reconocer las normas de higiene y seguridad en la cocina, así como la identificación de herramientas y tradiciones culinarias de diferentes culturas.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la forma correcta de mantener la higiene al probar alimentos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Usar la misma cuchara para toda la preparación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Usar los dedos para probar directamente.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Usar una cuchara limpia y lavarla inmediatamente después.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Probar con cualquier utensilio disponible.',
               esCorrecta: false,
             },
           ],
@@ -57,29 +57,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué utensilio es típico para preparar fondues?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Crepera.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Caquelón.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Laminadora de pasta.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Esterilla de sushi.',
               esCorrecta: false,
             },
           ],
@@ -88,30 +87,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué material es común para una esterilla de sushi?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Plástico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Bambú.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Metal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Madera maciza.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -119,29 +117,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es la norma para las uñas en la cocina?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Pueden estar largas y con esmalte.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Deben estar limpias y cortas.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Solo se requiere que estén limpias.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'No importa el estado de las uñas.',
               esCorrecta: false,
             },
           ],
@@ -150,30 +147,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Qué herramienta sirve para triturar alimentos en la cocina mexicana?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Pasapuré.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Molcajete.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Wok.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Donabe.',
               esCorrecta: false,
             },
           ],
@@ -183,28 +179,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué norma es fundamental al usar equipos eléctricos en la cocina?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Evitar usarlos durante la noche.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Usarlos con las manos mojadas.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Tener las manos secas antes de usarlos.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Limpiarlos solo después de su uso.',
               esCorrecta: false,
             },
           ],
@@ -214,28 +210,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué utensilio japonés se utiliza para preparar arroz de sushi?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Crepera.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Hangiri.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Wok.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Molcajete.',
               esCorrecta: false,
             },
           ],
@@ -244,29 +240,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué país es conocido por el uso de tajines para cocinar?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Argentina.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'México.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Marruecos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Japón.',
               esCorrecta: false,
             },
           ],
@@ -276,19 +271,19 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Es importante que el cabello esté completamente recogido al cocinar.',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Verdadero.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Falso.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -297,19 +292,19 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Los cuchillos deben mantenerse desafilados para evitar accidentes.',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Verdadero.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Falso.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -317,20 +312,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué utensilio se utiliza para preparar purés y salsas?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Molcajete.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Tajín marroquí.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pasapuré.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Esterilla de sushi.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -339,18 +343,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué norma de seguridad es esencial al trabajar cerca de fuego?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Usar ropa ajustada.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mantener las toallas alejadas del fuego.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cortar alimentos lejos de la llama.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dejar utensilios cerca del borde de la mesa.',
               esCorrecta: false,
             },
           ],
@@ -360,18 +374,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué herramienta es usada para formar bolas de frutas o vegetales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Hangiri.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cuchara Parisien.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Laminadora de pasta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Molcajete.',
               esCorrecta: false,
             },
           ],
@@ -380,20 +404,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué característica distingue a la cocina mexicana?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Uso de especias como comino y pimienta.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Platos con sabores fuertes y picantes.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Preparación al vapor de alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso exclusivo de ingredientes prehispánicos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -402,18 +435,28 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué elemento debe incluir una cocina para cumplir con las medidas de emergencia?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Un congelador.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Extintores y un botiquín.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Llamas altas para cocinar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Laminadoras y tajines.',
               esCorrecta: false,
             },
           ],
