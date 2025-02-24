@@ -19,44 +19,48 @@
 
     TabsB.color-primario.mb-5
       .py-4.py-md-5(titulo="Argentina" :icono="require('@/assets/curso/tema3/2.svg')")
-        .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
-            h4 Argentina
-            p Influenciada por las culturas indígena, árabe, española, italiana, alemana, británica y judía. Destacan los asados y el bifé de chorizo, preparados con atención al tipo de parrilla y al tiempo de cocción. La influencia italiana se refleja en el consumo de pastas y pizzas. La papa fue popularizada gracias a una campaña de Evita Perón.
-        
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema3/6.png', alt='').m-auto
+        .p-4
+          .row.justify-content-center
+            .col-md-7.mb-4.mb-md-0
+              h4 Argentina
+              p Influenciada por las culturas indígena, árabe, española, italiana, alemana, británica y judía. Destacan los asados y el bifé de chorizo, preparados con atención al tipo de parrilla y al tiempo de cocción. La influencia italiana se refleja en el consumo de pastas y pizzas. La papa fue popularizada gracias a una campaña de Evita Perón.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema3/6.png', alt='').m-auto
 
       .py-4.py-md-5(titulo="España" :icono="require('@/assets/curso/tema3/3.svg')")
-        .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
-            h4 España
-            p Fusiona culturas árabe, americana y mediterránea. El aceite de oliva extra virgen es un ingrediente esencial. La paella, con base de arroz y azafrán, es un plato emblemático. El vino y los quesos son acompañantes destacados. Papas y tomates llegaron con la conquista de América.
-        
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema3/7.png', alt='').m-auto
+        .p-4
+          .row.justify-content-center
+            .col-md-7.mb-4.mb-md-0
+              h4 España
+              p Fusiona culturas árabe, americana y mediterránea. El aceite de oliva extra virgen es un ingrediente esencial. La paella, con base de arroz y azafrán, es un plato emblemático. El vino y los quesos son acompañantes destacados. Papas y tomates llegaron con la conquista de América.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema3/7.png', alt='').m-auto
 
       .py-4.py-md-5(titulo="Turquía" :icono="require('@/assets/curso/tema3/4.svg')")
-        .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
-            h4 Turquía
-            p Con una ubicación entre Asia y Europa, es un puente entre las cocinas árabe, persa, india y del Medio Oriente. Se caracteriza por su uso de especias como el comino y la pimienta, junto con verduras y aceite de oliva. Sus platos son variados, sanos y equilibrados.
-        
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema3/8.png', alt='').m-auto
+        .p-4
+          .row.justify-content-center
+            .col-md-7.mb-4.mb-md-0
+              h4 Turquía
+              p Con una ubicación entre Asia y Europa, es un puente entre las cocinas árabe, persa, india y del Medio Oriente. Se caracteriza por su uso de especias como el comino y la pimienta, junto con verduras y aceite de oliva. Sus platos son variados, sanos y equilibrados.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema3/8.png', alt='').m-auto
 
       .py-4.py-md-5(titulo="México" :icono="require('@/assets/curso/tema3/5.svg')")
-        .row.justify-content-center
-          .col-md-7.mb-4.mb-md-0
-            h4 México
-            p Surge de una mezcla prehispánica y española, rica en color, textura y sabor. Se distingue por sabores fuertes y picantes, como los chiles, tortillas de maíz y totopos. El chile es el elemento picante principal, y las aguas de frutos o semillas, como el agua de Jamaica, son bebidas típicas.
-        
-          .col-md-3
-            figure
-              img(src='@/assets/curso/tema3/9.png', alt='').m-auto
+        .p-4
+          .row.justify-content-center
+            .col-md-7.mb-4.mb-md-0
+              h4 México
+              p Surge de una mezcla prehispánica y española, rica en color, textura y sabor. Se distingue por sabores fuertes y picantes, como los chiles, tortillas de maíz y totopos. El chile es el elemento picante principal, y las aguas de frutos o semillas, como el agua de Jamaica, son bebidas típicas.
+          
+            .col-md-3
+              figure
+                img(src='@/assets/curso/tema3/9.png', alt='').m-auto
 
 
     .bg-full-width.bg-fondo-4

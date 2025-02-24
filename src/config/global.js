@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -104,7 +104,7 @@ export default {
         'Rimac Seguros. (s. f.). Ergonomía física. Estándares y requisitos legales nacional e internacional.',
       tipo: 'Artículo',
       link:
-        'http://prevencionlaboralrimac.com/Cms_Data/Contents/RimacDataBase/Media/fasciculo-prevencion/FASC-858815260189216769.pdf',
+        'https://prevencionlaboralrimac.com/Cms_Data/Contents/RimacDataBase/Media/fasciculo-prevencion/FASC-8588152601892167690.pdf',
     },
     {
       tema: 'Herramientas y equipos de cocina internacional',
@@ -161,12 +161,12 @@ export default {
         'alfombrilla de bambú utilizada para formar rollos de sushi.',
     },
     {
-      termino: 'Fondue',
+      termino: '<em>Fondue</em>',
       significado:
         'plato tradicional suizo preparado en un caquelón con queso derretido.',
     },
     {
-      termino: 'Hangiri',
+      termino: '<em>Hangiri</em>',
       significado:
         'utensilio japonés de madera para mezclar y enfriar arroz de sushi.',
     },
@@ -197,7 +197,7 @@ export default {
     {
       termino: 'Tajín marroquí',
       significado:
-        'utensilio de barro con tapa cónica para cocinar guisos del magreb.',
+        'utensilio de barro con tapa cónica para cocinar guisos del <em>Magreb</em>.',
     },
   ],
   referencias: [
@@ -243,9 +243,10 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Edgar Mauricio Cortes García',
@@ -253,25 +254,22 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Raul Mosquera',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

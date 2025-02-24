@@ -17,9 +17,9 @@
 
           .carousel-bg
             .row.justify-content-center.align-items-center.my-5
-              .col-lg-4.d-none.d-lg-block(data-aos="zoom-in")
+              .col-xl-4.d-none.d-xl-block(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/1.png', style="max-width: 300px", alt='').m-auto
-              .col-lg-8
+              .col-xl-8
                 
                 SlyderF.mb-5(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in-up")
                   .tarjeta.bg-color-white.p-4.shadow-top-left-right.text-center
