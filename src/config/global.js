@@ -83,7 +83,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/93610225_CF01_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -202,8 +202,38 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Armendáriz, J. (2017). Seguridad e higiene en la manipulación de alimentos (3ª ed.). Ediciones Paraninfo.',
       link: '',
+    },
+    {
+      referencia:
+        'Braun, D. (2015). Higiene en la cocina: Guía para evitar la contaminación de los alimentos. Larousse.',
+      link: '',
+    },
+    {
+      referencia:
+        'Colhogar. (2021). Higiene alimentaria: 10 normas básicas de manipulación de alimentos.',
+      link:
+        'https://www.colhogar.com/es/higiene-y-salud/higiene-en-el-hogar/10-normas-basicas-de-manipulacion-de-alimentos/colhogar.com+1colhogar.com+1',
+    },
+    {
+      referencia:
+        'El País. (2025, 8 de febrero). Los utensilios y cacharros indispensables para los cocineros.',
+      link:
+        'https://elpais.com/gastronomia/2025-02-08/los-utensilios-y-cacharros-indispensables-para-los-cocineros.htmlelpais.com',
+    },
+    {
+      referencia:
+        'Electrolux Professional. (2022). 10 reglas de higiene en la cocina.',
+      link:
+        'https://www.electroluxprofessional.com/la/10-reglas-de-higiene-en-la-cocina/Electrolux Professional+1colhogar.com+1',
+    },
+    {
+      referencia:
+        'Go Red for Women. (2024). Equipo y utensilios de cocina esenciales.',
+      link:
+        'https://www.goredforwomen.org/es/healthy-living/healthy-eating/cooking-skills/meal-planning/essential-kitchen-equipment-and-utensils',
     },
   ],
   creditos: [
