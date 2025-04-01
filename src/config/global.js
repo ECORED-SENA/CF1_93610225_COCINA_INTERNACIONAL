@@ -156,9 +156,9 @@ export default {
         'fusión de tradiciones, ingredientes y técnicas culinarias de diversas culturas.',
     },
     {
-      termino: 'Esterilla de sushi',
+      termino: 'Esterilla de <em>sushi</em>',
       significado:
-        'alfombrilla de bambú utilizada para formar rollos de sushi.',
+        'alfombrilla de bambú utilizada para formar rollos de <em>sushi</em>.',
     },
     {
       termino: '<em>Fondue</em>',
@@ -168,7 +168,7 @@ export default {
     {
       termino: '<em>Hangiri</em>',
       significado:
-        'utensilio japonés de madera para mezclar y enfriar arroz de sushi.',
+        'utensilio japonés de madera para mezclar y enfriar arroz de <em>sushi</em>.',
     },
     {
       termino: 'Laminadora',
@@ -215,7 +215,7 @@ export default {
       referencia:
         'Colhogar. (2021). Higiene alimentaria: 10 normas básicas de manipulación de alimentos.',
       link:
-        'https://www.colhogar.com/es/higiene-y-salud/higiene-en-el-hogar/10-normas-basicas-de-manipulacion-de-alimentos/colhogar.com+1colhogar.com+1',
+        'https://www.colhogar.com/es/higiene-y-salud/higiene-en-el-hogar/10-normas-basicas-de-manipulacion-de-alimentos/',
     },
     {
       referencia:
@@ -227,7 +227,7 @@ export default {
       referencia:
         'Electrolux Professional. (2022). 10 reglas de higiene en la cocina.',
       link:
-        'https://www.electroluxprofessional.com/la/10-reglas-de-higiene-en-la-cocina/Electrolux Professional+1colhogar.com+1',
+        'https://www.electroluxprofessional.com/la/10-reglas-de-higiene-en-la-cocina/',
     },
     {
       referencia:

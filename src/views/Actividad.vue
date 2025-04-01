@@ -57,7 +57,7 @@ export default {
         },
         {
           id: 2,
-          texto: '¿Qué utensilio es típico para preparar fondues?',
+          texto: '¿Qué utensilio es típico para preparar <em>fondues</em>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -78,7 +78,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Esterilla de sushi.',
+              texto: 'Esterilla de <em>sushi</em>.',
               esCorrecta: false,
             },
           ],
@@ -87,7 +87,7 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Qué material es común para una esterilla de sushi?',
+          texto: '¿Qué material es común para una esterilla de <em>sushi</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -210,7 +210,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué utensilio japonés se utiliza para preparar arroz de sushi?',
+            '¿Qué utensilio japonés se utiliza para preparar arroz de <em>sushi</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -221,12 +221,12 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Hangiri.',
+              texto: '<em>Hangiri</em>.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Wok.',
+              texto: '<em>Wok</em>.',
               esCorrecta: false,
             },
             {
@@ -278,12 +278,12 @@ export default {
             {
               id: 'a',
               texto: 'Verdadero.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -333,7 +333,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Esterilla de sushi.',
+              texto: 'Esterilla de <em>sushi</em>.',
               esCorrecta: false,
             },
           ],

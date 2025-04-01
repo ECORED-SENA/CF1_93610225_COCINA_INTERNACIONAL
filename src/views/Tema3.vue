@@ -23,7 +23,7 @@
           .row.justify-content-center
             .col-md-7.mb-4.mb-md-0
               h4 Argentina
-              p Influenciada por las culturas indígena, árabe, española, italiana, alemana, británica y judía. Destacan los asados y el bifé de chorizo, preparados con atención al tipo de parrilla y al tiempo de cocción. La influencia italiana se refleja en el consumo de pastas y pizzas. La papa fue popularizada gracias a una campaña de Evita Perón.
+              p Influenciada por las culturas indígena, árabe, española, italiana, alemana, británica y judía. Destacan los asados y el <em>bifé</em> de chorizo, preparados con atención al tipo de parrilla y al tiempo de cocción. La influencia italiana se refleja en el consumo de pastas y pizzas. La papa fue popularizada gracias a una campaña de Evita Perón.
           
             .col-md-3
               figure

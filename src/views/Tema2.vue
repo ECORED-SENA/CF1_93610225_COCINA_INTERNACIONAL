@@ -27,7 +27,7 @@
               img.custom-image-card__image(src="@/assets/curso/tema2/2.png" alt="")
               .custom-image-card__text.p-4
                 h5.mb-2.text-center Caquelón
-                p.mb-0 Utensilio tradicional de Suiza y Francia usado para preparar fondues de queso.
+                p.mb-0 Utensilio tradicional de Suiza y Francia usado para preparar <em>fondues</em> de queso.
           .col-md-6.col-lg-3.mb-4(data-aos="zoom-in-down")
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/3.png" alt="")
@@ -39,7 +39,7 @@
               img.custom-image-card__image(src="@/assets/curso/tema2/6.png" alt="")
               .custom-image-card__text.p-4
                 h5.mb-2.text-center Crepera
-                p.mb-0 Máquina o placa usada para preparar crepes, galettes, tortas y panqueques.
+                p.mb-0 Máquina o placa usada para preparar crepes, <em>galettes</em>, tortas y panqueques.
           .col-md-6.col-lg-3.mb-4(data-aos="zoom-in-down")
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/5.png" alt="")
@@ -58,14 +58,14 @@
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/7.png" alt="")
               .custom-image-card__text.p-4
-                h5.mb-2.text-center Esterilla de Sushi
-                p.mb-0 Alfombrilla de bambú para dar forma a los rollos de sushi.
+                h5.mb-2.text-center Esterilla de <em>Sushi</em>
+                p.mb-0 Alfombrilla de bambú para dar forma a los rollos de <em>sushi</em>.
           .col-md-6.col-lg-3.mb-4(data-aos="zoom-in-down")
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/14.png" alt="")
               .custom-image-card__text.p-4
                 h5.mb-2.text-center #[em Hangiri]
-                p.mb-0 Utensilio japonés de madera usado para enfriar y mezclar arroz para sushi.
+                p.mb-0 Utensilio japonés de madera usado para enfriar y mezclar arroz para <em>sushi</em>.
           .col-md-6.col-lg-3.mb-4(data-aos="zoom-in-down")
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/9.png" alt="")
@@ -137,7 +137,7 @@
               img.custom-image-card__image(src="@/assets/curso/tema2/12.png" alt="")
               .custom-image-card__text.p-4
                 h5.mb-2.text-center Waflera
-                p.mb-0 Máquina con base en forma de rejilla, diseñada para cocinar waffles o gofres.
+                p.mb-0 Máquina con base en forma de rejilla, diseñada para cocinar <em>waffles</em> o gofres.
           .col-md-6.col-lg-3.mb-4(data-aos="zoom-in-down")
             .rounded-top.rounded-bottom.custom-image-card.h-100
               img.custom-image-card__image(src="@/assets/curso/tema2/18.png" alt="")
