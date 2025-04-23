@@ -29,6 +29,8 @@ export default {
             '¿Cuál es la forma correcta de mantener la higiene al probar alimentos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
+          titulo_aprobado: '¡BUEN TRABAJO!',
+          titulo_reprobado: 'VUELVA A INTENTARLO',
           opciones: [
             {
               id: 'a',
