@@ -76,7 +76,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2u-KBW0SnQI?si=xI54RZd6F6aK1QyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        figcaption.mt-3 Fuente: @SENAComunica Cuenta oficial del Servicio Nacional de Aprendizaje - SENA.
 </template>
 
 <script>
