@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Herramientas y equipos de cocina internacional
-
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg
@@ -17,7 +17,6 @@
       .col-lg-auto
         figure
           img(src='@/assets/curso/tema2/1.svg', style="max-width: 134px", alt='').m-auto
-
 
     #Herramientas_y_equipos_de_cocina_internacional.bg-full-width.bg-fondo-3
       .px-4.px-md-5.pb-md-3

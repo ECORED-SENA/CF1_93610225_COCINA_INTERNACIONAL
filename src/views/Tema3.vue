@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Cocina internacional
-
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg
@@ -15,7 +15,6 @@
       .col-lg-auto
         figure
           img(src='@/assets/curso/tema3/1.svg', style="max-width: 94px", alt='').m-auto
-
 
     TabsB.color-primario.mb-5
       .py-4.py-md-5(titulo="Argentina" :icono="require('@/assets/curso/tema3/2.svg')")
@@ -62,7 +61,6 @@
               figure
                 img(src='@/assets/curso/tema3/9.png', alt='').m-auto
 
-
     .bg-full-width.bg-fondo-4
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center.mb-5
@@ -72,11 +70,11 @@
             figure
               img(src='@/assets/curso/tema3/10.png', alt='').m-auto
 
-
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2u-KBW0SnQI?si=xI54RZd6F6aK1QyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.mt-3 Fuente: @SENAComunica Cuenta oficial del Servicio Nacional de Aprendizaje - SENA.
+
 </template>
 
 <script>
