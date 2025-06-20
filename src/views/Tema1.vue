@@ -70,8 +70,9 @@
                     h5.text-center.mb-0.text-color-black Higiene al estornudar
                   p.text-center No estornude sobre los alimentos; lávese las manos después y evite tocarse la nariz.
 
-    .titulo-tres.mb-4(data-aos="flip-up").mb-4
-      h4 Normas de seguridad
+    #t_1_1
+    .titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.1. Normas de seguridad
 
     p(data-aos="fade-up").mb-4 Cumplir con las normas de seguridad en la cocina es fundamental para prevenir accidentes y garantizar un entorno adecuado para trabajar. Entre las principales recomendaciones se encuentran:
 

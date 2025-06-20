@@ -38,6 +38,13 @@ export default {
         numero: '1',
         titulo: 'Normas de higiene',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Normas de seguridad',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',

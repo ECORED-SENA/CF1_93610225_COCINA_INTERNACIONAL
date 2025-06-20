@@ -20,8 +20,10 @@ export default {
       tema: 'Normas, herramientas y tradiciones de la cocina internacional',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Reconocer las normas de higiene y seguridad en la cocina, así como la identificación de herramientas y tradiciones culinarias de diferentes culturas.',
+        '<b>Objetivo:</b> reconocer las normas de higiene y seguridad en la cocina, así como la identificación de herramientas y tradiciones culinarias de diferentes culturas.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
